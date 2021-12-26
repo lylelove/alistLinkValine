@@ -18,13 +18,6 @@ object-assign
 var width = window.innerWidth;
 var height = window.innerHeight;
 var url0 = window.location.href;
-function gun() {
-    var ce = document.querySelector("#root > div > div > div.chakra-stack.css-wlpsqb > div.footer.css-3m0ceo > div > a");
-    ce.href="https://www.lylelove.top";
-    var ar = document.querySelector("#root > div > div > div.chakra-stack.css-wlpsqb > div.footer.css-3m0ceo > div > div > a.chakra-link.css-f4h6uy");
-    ar.innerHTML="SDUFE课程资源共享计划";
-    ar.href="https://www.sdufe.vip";
-}
 
 function left() {
     var cl = document.querySelector("#root > div > div > div.overlay > div");
@@ -90,9 +83,6 @@ function vdark() {
         vbutton[i].style.color="#ffffff";
     }
 }
-window.onload=function () {
-    setTimeout(gun(),1000);
-};
 var video = document.getElementsByClassName("art-video-player");
 var oDiv = document.createElement('div');
 oDiv.id = 'vcomments';
@@ -107,8 +97,6 @@ obu.onclick = function(){
         obu.innerText="收起";
         oDiv.style.display="block";
         oDiv.style.width=width/2+"px";
-        var powered = document.querySelector("#vcomments > div.vpower.txt-right");
-        powered.style.display="none"
         if (video.length>0){
             video[0].style.display="none";
         }
@@ -152,8 +140,8 @@ ele.innerHTML=style;
 document.getElementsByTagName('head')[0].appendChild(ele)
 new Valine({
     el: '#vcomments',
-    appId: 'eYjwSMOsPFqT10xukqABF3cQ-gzGzoHsz',
-    appKey: 'acOkcfVHAJoRHxpAulnDAaj0',
+    appId: '',
+    appKey: '',
     avatar:"hide",
     visitor: true,
     pageSize:3,
