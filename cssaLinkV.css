@@ -1,0 +1,18 @@
+#vcomments{
+    background-color: #fcecec;
+    display: none;
+    position: sticky;
+    bottom:0px;
+    right:0px;
+    float: right;
+    border-radius: 1rem;
+    padding: 10px;
+}
+#vcbu{
+    position:fixed;
+    bottom:10px;
+    left:0px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
